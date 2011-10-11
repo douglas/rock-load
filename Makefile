@@ -17,4 +17,4 @@ drop:
 
 db:
 	@mkdir -p ./db_data/data
-	@mongod --logpath `pwd`/db_data/mongod.log --pidfilepath `pwd`/db_data/mongod.pid --rest --port 12345 --dbpath `pwd`/db_data/data &
+	@mongod --logpath `pwd`/db_data/mongod.log --pidfilepath `pwd`/db_data/mongod.pid --rest --port 27017 --dbpath `pwd`/db_data/data &
