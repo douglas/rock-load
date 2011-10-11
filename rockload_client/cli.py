@@ -18,8 +18,8 @@ DEFAULT_IP = '0.0.0.0'
 
 def main():
     parser = optparse.OptionParser(usage="rockload-client or type rockload-client -h (--help) for help", description=__doc__, version="0.1.0")
-    parser.add_option("-p", "--port", type="int", dest="port", default=DEFAULT_PORT, help = "The port where rockload-server is [default: %default]." )
-    parser.add_option("-i", "--host", dest="host", default=DEFAULT_IP, help = "The ip address of rockload-server [default: %default]." )
+    parser.add_option("-p", "--port", type="int", dest="port", default=DEFAULT_PORT, help="The port where rockload-server is [default: %default].")
+    parser.add_option("-i", "--host", dest="host", default=DEFAULT_IP, help="The ip address of rockload-server [default: %default].")
 
     (opt, args) = parser.parse_args()
 
